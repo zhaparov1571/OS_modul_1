@@ -1,0 +1,16 @@
+Timeout (0:00:05)!
+Thread 0x00007f3d0a7c56c0 (most recent call first):
+  File "transfer_deadlock.py", line 23 in transfer
+  File "/usr/lib/python3.13/threading.py", line 994 in run
+  File "/usr/lib/python3.13/threading.py", line 1043 in _bootstrap_inner
+  File "/usr/lib/python3.13/threading.py", line 1014 in _bootstrap
+
+Thread 0x00007f3d0afc66c0 (most recent call first):
+  File "transfer_deadlock.py", line 23 in transfer
+  File "/usr/lib/python3.13/threading.py", line 994 in run
+  File "/usr/lib/python3.13/threading.py", line 1043 in _bootstrap_inner
+  File "/usr/lib/python3.13/threading.py", line 1014 in _bootstrap
+
+Thread 0x00007f3d22d8f780 (most recent call first):
+  File "/usr/lib/python3.13/threading.py", line 1094 in join
+  File "transfer_deadlock.py", line 31 in <module>
